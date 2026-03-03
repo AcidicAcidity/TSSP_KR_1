@@ -4,7 +4,15 @@ import re
 
 class User(BaseModel):
     name: str
-    message: int
+    id: int
+
+class UserAge(BaseModel):
+    name: str
+    age: int
+
+class FeedBack(BaseModel):
+    name: str
+    message: str
 
 class FeedbackValidated(BaseModel):
     name: str = Field(..., min_lenght=2, max_lenght=50, description="Имя пользователя")

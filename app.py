@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPExciption
+from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse, FileResponse, HTMLResponse
 from pydantic import ValidationError
 import uvicorn
