@@ -1,0 +1,86 @@
+# Виртуальное окружение
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+
+# Дистрибутивы и упаковка
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# IDEs и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Тесты и покрытие
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.coverage.*
+*.cover
+
+# Логи и базы данных
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Файлы конфигурации с секретами
+.env
+*.env
+config/local.py
+
+# Бэкапы
+*.bak
+*.backup
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+
+# Файлы проекта (кроме исходников)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Файлы зависимостей (но сам requirements.txt оставляем)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Всё что связано с Docker (если будешь использовать)
+*.pid
+docker-compose.override.yml
+.dockerignore
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
